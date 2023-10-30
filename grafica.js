@@ -1,4 +1,4 @@
-const labels = ["1 anio", "2 anios"];
+const labels = ["1 año", "2 años"];
 const datos = [24000, 27000];
 const colores = [
     "rgba(255,99,132)",
@@ -26,7 +26,7 @@ const data={
         data: datos,
         backgroundColor: colores,
         borderColor: borders,
-        borderWidth: 1 
+        borderWidth: 1
     }]
 }
 
@@ -59,11 +59,11 @@ const slider = document.querySelector(".slider");
 const ganancias = [24000, 27000, 34000, 40500, 46300, 48000, 54500];
 
 slider.addEventListener("change", function(){
-    graficaInvest.data.labels = ["1 anio"];
+    graficaInvest.data.labels = ["1 año"];
     graficaInvest.data.datasets[0].data= [24000];
 
     for (let i=2; i<=this.value; i++){
-        graficaInvest.data.labels.push(`${i} anios`);
+        graficaInvest.data.labels.push(`${i} años`);
         graficaInvest.data.datasets[0].data.push(ganancias[i-1]);
     }
 
