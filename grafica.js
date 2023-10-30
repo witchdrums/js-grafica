@@ -26,7 +26,7 @@ const data={
         data: datos,
         backgroundColor: colores,
         borderColor: borders,
-        borderWidth: 1
+        borderWidth: 1 
     }]
 }
 
