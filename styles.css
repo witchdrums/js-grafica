@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 1.4rem;
+}
+
+.contenedor-grafica{
+    position: relative;
+    height: 50vh;
+    width: 90vw;
+}
+
+.slider{
+    width: 50vw;
+}
+
